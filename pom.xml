@@ -6,8 +6,8 @@
     <version>1.0-SNAPSHOT</version>
     <inceptionYear>2017</inceptionYear>
     <properties>
-        <scala.binary.version>2.11</scala.binary.version>
-        <scala.version>2.11.8</scala.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <scala.version>2.12.4</scala.version>
         <scalatest.version>3.0.1</scalatest.version>
         <logback-classic.version>1.1.7</logback-classic.version>
         <junit.version>4.8.1</junit.version>
@@ -15,11 +15,12 @@
         <fenzo-core.version>0.12.8</fenzo-core.version>
         <curator.version>3.2.0</curator.version>
         <scala-logging.version>3.5.0</scala-logging.version>
-        <akka-http.version>10.0.5</akka-http.version>
-        <swagger.version>0.8.1</swagger.version>
+        <akka-http.version>10.1.10</akka-http.version>
+        <swagger.version>2.0.4</swagger.version>
         <swagger-ui.version>1.0.0</swagger-ui.version>
         <json4s.version>3.5.0</json4s.version>
-        <akka.version>2.4.3</akka.version>
+        <akka.version>10.1.10</akka.version>
+        <javax.ws.rs-api.version>2.1.1</javax.ws.rs-api.version>
     </properties>
 
 
@@ -63,6 +64,11 @@
             <groupId>org.json4s</groupId>
             <artifactId>json4s-ext_${scala.binary.version}</artifactId>
             <version>${json4s.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>${javax.ws.rs-api.version}</version>
         </dependency>
 
         <!-- TEST -->
