@@ -9,7 +9,7 @@
         <scala.binary.version>2.12</scala.binary.version>
         <scala.version>2.12.4</scala.version>
         <scalatest.version>3.0.1</scalatest.version>
-        <logback-classic.version>1.2.0</logback-classic.version>
+        <logback-classic.version>1.2.13</logback-classic.version>
         <junit.version>4.13.1</junit.version>
         <mesos.version>1.0.1</mesos.version>
         <fenzo-core.version>0.12.8</fenzo-core.version>
